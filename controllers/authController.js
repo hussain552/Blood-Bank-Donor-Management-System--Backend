@@ -1,5 +1,5 @@
 import bcrypt from 'bcryptjs';
-import BloodDonor from '../models/DonorsList.js';
+import BloodDonor from '../MOdels/DonorsList.js';
 
 // User Signup
 export const registerUser = async (req, res) => {
