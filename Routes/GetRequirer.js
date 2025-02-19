@@ -1,5 +1,5 @@
 import express from 'express';
-import BloodRequirer from '../models/BloodRequirer.js';
+import BloodRequirer from '../MOdels/BloodRequirer.js';
 
 const router = express.Router();
 

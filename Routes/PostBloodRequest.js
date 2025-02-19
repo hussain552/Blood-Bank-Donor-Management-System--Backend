@@ -1,5 +1,5 @@
 import express from 'express';
-import BloodRequirer from "../models/BloodRequirer.js"; // Fix the import path to lowercase
+import BloodRequirer from "../MOdels/BloodRequirer.js"; // Fix the import path to lowercase
 
 const router = express.Router();
 

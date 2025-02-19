@@ -1,5 +1,5 @@
 import express from 'express';
-import BloodDonor from '../models/DonorsList.js'; // Ensure correct case
+import BloodDonor from '../MOdels/DonorsList.js'; // Ensure correct case
 
 const router = express.Router();
 
