@@ -1,0 +1,9 @@
+[build]
+  command = "npm install"
+  functions = "functions"
+  publish = "public" # If you have a frontend, publish the build folder here
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
