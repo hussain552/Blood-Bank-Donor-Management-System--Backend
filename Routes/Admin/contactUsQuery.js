@@ -29,13 +29,14 @@ const validateContactInput = (req, res, next) => {
         });
     }
 
-    // Phone number validation (basic international format)
-    if (!validator.isMobilePhone(ContactNumber, 'any', { strictMode: false })) {
+    // Phone number validation (basic indian  format)
+    if (!validator.isMobilePhone(ContactNumber, 'en-IN') || ContactNumber.length !== 10) {
         return res.status(400).json({
             message: 'Validation failed',
-            error: 'Invalid phone number format'
+            error: 'Invalid phone number format. Please enter a 10-digit Indian number.'
         });
     }
+    
 
     next();
 };
