@@ -41,7 +41,7 @@ Ensure you have the following installed on your system:
    PORT=8080
    ```
 
-5. Open `https://blood-bank-donor-management-system.onrender.com` in your browser.
+5. Open `http://localhost:8080` in your browser.
 
 
 
